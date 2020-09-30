@@ -1,3 +1,137 @@
-h1 {
+/* GENERAL */
+header {
     color: red;
+    text-align: center; 
 }
+
+body{
+    background-image: url('https://www.safaritravelplus.com/wp-content/uploads/2018/06/african-safari-tswalu-kalahari-tarkuni-firepit.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+main{
+    display: flex;
+    align-items: center;
+    height: 400px; 
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 250px;
+}
+
+
+
+/* SIGN-UP */
+.signup-box{
+    background: beige;
+    height: 250px;
+    width: 330px;
+    align-items: center; 
+    opacity: 85%;   
+}
+
+.signup-info{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    width: 250px; 
+    height: 30px;
+    margin-left: 15px;  
+}
+
+.signup-btn{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    width: 250px; 
+    height: 30px;
+    margin-left: 15px;
+}
+
+.signup-login{
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.signup-btn:hover{
+    background-color: burlywood;
+    border: none;
+}
+
+.signup-span{
+    text-decoration: underline;
+}
+
+/* LOGIN */
+.login-box{
+    background: beige;
+    height: 250px;
+    width: 330px;
+    align-items: center;
+    opacity: 85%;  
+}
+
+.login-info{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    width: 250px; 
+    height: 30px;
+    margin-left: 15px;  
+}
+
+.login-signup{
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.login-btn{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    width: 250px; 
+    height: 30px;
+    margin-left: 15px;
+}
+
+.login-btn:hover{
+    background-color: burlywood;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: aliceblue;  
+}
+
+.parag-text{
+    font-size: 29px;
+    margin-left: 15px;
+    padding: 5px;
+    color: brown;
+}
+
