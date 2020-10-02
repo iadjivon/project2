@@ -12,6 +12,14 @@ class Layout extends React.Component {
         <body>
           <header>
             <h1>African Vacation Destinations</h1>
+            <h3> 
+            <nav>
+              <span> <a href = "/auth/signup">SIGNUP</a></span>
+              <span> <a href = "/auth/login">LOGIN</a></span>
+              <span> <a href = "/auth/logout">LOGOUT</a></span>
+            </nav>
+            </h3>
+           
           </header>
           <main>{this.props.children}</main>
           <footer>
