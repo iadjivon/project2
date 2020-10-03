@@ -32,8 +32,13 @@ class Layout extends React.Component {
         <a class="nav-link" href="/auth/login">Log In</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/auth/logout">Log Out</a>
+        <a class="nav-link" href="/locations">My Vacation Spots</a>
       </li>
+      
+      <li class="nav-item">
+        <a class="nav-link-logout" href="/auth/logout">Log Out</a>
+      </li>
+
       {/* <li class="nav-item">
         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
       </li> */}

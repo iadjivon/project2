@@ -15,6 +15,21 @@ class Index extends React.Component {
           placeholder= "name of location here" 
           name = "location"
           />
+
+        <input 
+          type = "url"
+          value={location.image} 
+          placeholder= "link to image of location here" 
+          name = "image"
+          />
+
+        <input 
+          type = "text"
+          value={location.content} 
+          placeholder= "say a little something about this location" 
+          name = "content"
+          />
+          
           <input type = "submit" value= "Edit Location"/>
         </form>
         </div>

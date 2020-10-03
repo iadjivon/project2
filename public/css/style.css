@@ -42,6 +42,10 @@ main{
     background-size: cover;
 }
 
+.nav-link-logout{
+    position: absolute;
+    right: 100px;
+}
 
 /* LANDING PAGE */
 
@@ -272,8 +276,120 @@ h6{
 /* MEMBER'S PAGE */
 
 .location-index{
-    margin-top: 100px;
+    margin-top: 20px;
+    margin-bottom:30px ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-image: url(https://d3500i1ecak5li.cloudfront.net/s3fs-public/styles/banner/public/images/chapters/travel%20massive%20africa.jpg);
+    background-size: cover;
+    padding: 200px;
+    margin-top: 5px;
+   
+    
 }
+
+.location-index-h1{
+    margin-bottom:30px ;  
+}
+
+.location-index-form{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+.location-index-location{
+    padding: 20px;
+    margin: 10px;
+    /* text-align: left; */
+}
+
+.location-index-image{
+    /* padding: 20px; */
+    margin: 10px;
+}
+
+.location-index-content{
+    /* padding: 20px; */
+    margin: 10px;
+    background-color: rgb(212, 148, 124);
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.location-index-submit{
+    padding: 10px;
+    margin: 5px;
+}
+
+.location-index-delbtn{
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+}
+
+.location-index-edbtn{
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+}
+
+
+
 .location-edit{
     margin-top: 200px;
 }
+
+.new-form-form{
+    display: flex;
+    flex-wrap: wrap;  
+    margin-top: 30px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.new-form-header{
+    display: flex;
+    flex-wrap: wrap;    
+    margin-top: 100px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    color: burlywood;
+   
+}
+
+.flex-container-form{
+    background-image: url(https://iconiclife.com/wp-content/uploads/2020/01/Kwandwe-Melton-luxury-african-safari-lodge.jpg);
+    height: 100%;  
+    margin: 5px;
+    padding: 50px;
+    background-size: cover;
+}
+
+.new-form-submit{
+    width: 150px;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+} 
+
+.new-form-submit:hover{
+    background-color: burlywood;
+}
+.new-form-input{
+    width: 350px;
+    margin: 5px;
+    padding: 4px;
+    opacity: 85%;
+} 
