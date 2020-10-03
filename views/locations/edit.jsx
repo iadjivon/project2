@@ -7,27 +7,27 @@ class Index extends React.Component {
     return (
       <Layout title="Edit Vacation Spots">
         <div className="location-edit">
-        <h1> New Vacation Spots </h1>
+        <h1 className="new-form-header"> Edit Vacation Spots </h1>
         <form action = {`/locations/edit/${location.id}?_method=PUT`}method="post">
           <input 
           type = "text"
           value={location.location} 
           placeholder= "name of location here" 
-          name = "location"
+          name = "location" className="new-form-input"
           />
 
         <input 
           type = "url"
           value={location.image} 
           placeholder= "link to image of location here" 
-          name = "image"
+          name = "image" className="new-form-input"
           />
-
+<br></br>
         <input 
           type = "text"
           value={location.content} 
           placeholder= "say a little something about this location" 
-          name = "content"
+          name = "content" className="new-form-input"
           />
           
           <input type = "submit" value= "Edit Location"/>

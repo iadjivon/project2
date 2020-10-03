@@ -277,6 +277,15 @@ h6{
 
 .card{
     width: 18rem;
+    margin: 10px;
+    
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    /* margin: 10px; */
+    /* padding: 19px; */
 }
 
 .card-top img{
@@ -301,6 +310,11 @@ h6{
 
 .location-index-h1{
     margin-bottom:30px ;  
+}
+
+.location-index-h1-2{
+    margin: 30px ; 
+    margin-bottom: 10px; 
 }
 
 .location-index-form{
@@ -353,6 +367,7 @@ h6{
 
 .location-edit{
     margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 .new-form-form{
