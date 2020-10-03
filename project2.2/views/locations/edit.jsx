@@ -6,6 +6,7 @@ class Index extends React.Component {
     const{location}= this.props;
     return (
       <Layout title="Edit Vacation Spots">
+        <div className="location-edit">
         <h1> New Vacation Spots </h1>
         <form action = {`/locations/edit/${location.id}?_method=PUT`}method="post">
           <input 
@@ -16,6 +17,7 @@ class Index extends React.Component {
           />
           <input type = "submit" value= "Edit Location"/>
         </form>
+        </div>
       </Layout>
     );
   }

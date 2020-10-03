@@ -6,11 +6,12 @@ class Index extends React.Component {
     const {locations} = this.props;
     return (
       <Layout title="My African Vacation Spots">
+        <div className="location-index">
         <h1> My Vacation Spots </h1>
         <a href="/locations/new"><button>New Location</button></a>
           {locations.map((location) =>(
           <div>
-            <h2>{location.location}</h2>
+            <h2>{location.location}</h2> 
             <form action={`/locations/${location.id}?_method=DELETE`} method="POST">
             <input type="submit" value="Delete"/>
           </form>
@@ -20,6 +21,7 @@ class Index extends React.Component {
           </form>
           </div>
           ))}
+          </div>
       </Layout>
     );
   }

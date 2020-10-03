@@ -26,7 +26,7 @@ class Layout extends React.Component {
       <div class="collapse navbar-collapse" id="navbarNav">
          <ul class="navbar-nav">
          <li class="nav-item active">
-        <a class="nav-link" href="/auth/signup">Sign In <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/auth/signup">Sign Up <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/auth/login">Log In</a>
