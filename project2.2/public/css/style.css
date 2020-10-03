@@ -3,12 +3,19 @@ header {
     color: red;
     text-align: center; 
 }
-
-body{
-    background-image: url('https://www.safaritravelplus.com/wp-content/uploads/2018/06/african-safari-tswalu-kalahari-tarkuni-firepit.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;  
+.navbar{
+   background-color: black;
+   padding: 0rem;
 }
+
+.navbar-brand img{
+    width:90px ;
+    height:70px;
+}
+
+/* body{
+    
+} */
 
 main{
     display: flex;
@@ -25,6 +32,103 @@ main{
 }
 
 
+/* LANDING PAGE */
+
+.index-top-image{
+    background-image: url(https://www.safaritravelplus.com/wp-content/uploads/2018/06/african-safari-tswalu-kalahari-tarkuni-firepit.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landing-countries{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+}
+
+.index-top-title{
+   text-align: center;
+   /* line-height: 11.2; */
+   letter-spacing: 8px;
+   padding-bottom: 0px;
+   padding-top: 180px;
+}
+
+.hr{
+    size: 100px;
+    width: 200px;
+    height: 10px;
+}
+.featured-hr{
+    size: 100px;
+    width: 80%;
+    height: 10px;
+    position:left;
+}
+
+.featured{
+    text-align: center;
+    /* background: blanchedalmond; */
+    /* width: 80%; */
+    justify-content: center;
+    color: rgb(162, 127, 81);
+}
+
+.index-top-para{
+    text-align: center;
+    margin-top: -14px;
+    color: rgb(80, 73, 64);
+ }
+
+.morocco-img{
+    width: 576px;
+    position: relative; 
+}
+
+.sa-title{
+    width: 480px;
+    text-align: right;  
+}
+.sa-img{
+    width: 480px;
+    position: relative;   
+}
+.zan-img{
+    width: 500px;
+    position: relative; 
+}
+
+.sey-img{
+    width: 500px;
+    position: relative; 
+}
+
+.sey-title{
+    width: 500px;
+    text-align: right; 
+}
+
+.egy-img{
+    width: 500px;
+    position: relative; 
+}
+.mau-img{
+    width: 619px;
+    position: relative; 
+}
+
+.mau-title{
+    width: 619px;
+    text-align: right;
+}
+
+.item{
+    padding: 5px;
+}
 
 /* SIGN-UP */
 .signup-box{
@@ -113,28 +217,19 @@ main{
 }
 
 
+/* FAIL TO LOGIN */
+.fail-to-login {
+    background-color: burlywood;
+    width: 540px;
+
+}
+
 @media only screen and (min-width: 768px){
     body{
         background-image: 50%;
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-body{
-    background-color: aliceblue;  
-}
 
 .parag-text{
     font-size: 29px;
@@ -143,3 +238,7 @@ body{
     color: brown;
 }
 
+h6{
+    color: burlywood;
+    text-align: center;
+}

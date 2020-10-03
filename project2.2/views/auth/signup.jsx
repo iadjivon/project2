@@ -10,7 +10,7 @@ class Index extends React.Component {
           <div className="signup-box"> 
           <p className="parag-text"> Sign Up </p>
           <input type="text" name="username" placeholder="username" className="signup-info"/>
-          <input type="text" name="password" placeholder="password" className="signup-info"/>
+          <input type="password" name="password" placeholder="password" className="signup-info"/>
           <br></br>
           <input type="submit" value="Sign-up" className="signup-btn"/> 
           <p className="signup-login"> Already have an account? <a href= "/auth/login"> Login.</a></p>

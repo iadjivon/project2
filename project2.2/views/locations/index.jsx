@@ -11,7 +11,7 @@ class Index extends React.Component {
           {locations.map((location) =>(
           <div>
             <h2>{location.location}</h2>
-          <form action={`/locations/${location.id}?_method=DELETE`} method="POST">
+            <form action={`/locations/${location.id}?_method=DELETE`} method="POST">
             <input type="submit" value="Delete"/>
           </form>
 
