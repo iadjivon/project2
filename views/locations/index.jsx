@@ -12,7 +12,7 @@ class Index extends React.Component {
         <a href="/locations/new">
           <button>New Location</button></a>
           {locations.map((location) =>(
-  
+  <div class="card-top">
   <div className="location-index-form" >
             
             <div className="location-index-location">
@@ -20,12 +20,13 @@ class Index extends React.Component {
             </div>
             <br/>
             <div className="location-index-image">
-            <img src={location.image} width="400px" height="100%"></img>
+            <img src={location.image} className="card-img-top" width="500px" height="100%"></img>
             </div>
-            <br></br>
+            
+            
             <div className="location-index-content">
             <p> A little bit about this location:{location.content}</p>
-            <br></br>
+            
             </div>
 
 <div className="location-index-submit" >
@@ -33,8 +34,6 @@ class Index extends React.Component {
             <br></br>
             <input type="submit" value="Delete" className="location-index-delbtn"/>
 <br/>
-           
-        
           </form>
 <br></br>
           <form action={`/locations/edit/${location.id}`} method="GET">
@@ -43,8 +42,34 @@ class Index extends React.Component {
           </form>
           </div>
           </div>
+          // </div>
           ))} 
           </div>
+
+
+          <div>
+                
+                <h1 className="location-index-h1-2"> Places I have been </h1>
+                        <div class="card">
+                  
+                <img src="https://cdn-images.go2africa.com/wp-content/uploads/2020/03/06104227/cape_town_aerial_go2africa.jpg" class="card-img-top" alt="..."/>
+                <div class="card-body">
+                  <h5 class="card-title">Cape town</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                {/* <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Cras justo odio</li>
+                  <li class="list-group-item">Dapibus ac facilisis in</li>
+                  <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div> */}
+              </div>
+              
+              </div> 
+         
       </Layout>
     );
   }

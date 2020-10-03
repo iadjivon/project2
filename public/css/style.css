@@ -275,6 +275,14 @@ h6{
 
 /* MEMBER'S PAGE */
 
+.card{
+    width: 18rem;
+}
+
+.card-top img{
+    width: 400px;
+    height: 100%;
+}
 .location-index{
     margin-top: 20px;
     margin-bottom:30px ;
