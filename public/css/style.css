@@ -1,0 +1,418 @@
+/* GENERAL */
+header {
+    color: red;
+    text-align: center; 
+}
+.navbar{
+   background-color: black;
+   padding: 0rem;
+}
+
+.navbar-brand img{
+    width:90px ;
+    height:70px;
+}
+
+/* body{
+    
+} */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.flex-container-login{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    /* padding: 250px; */
+    background-image: url(https://traveler.marriott.com/wp-content/uploads/2019/10/SEZLC__Feet_In_Sand_Dining.jpg);
+    background-size: cover;
+}
+
+.flex-container-signup{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    /* padding: 250px; */
+    background-image: url(https://asante-travel.com/wp-content/uploads/2019/09/Kenya-Option-4.jpg);
+    background-size: cover;
+}
+
+.nav-link-logout{
+    position: absolute;
+    right: 100px;
+}
+
+/* LANDING PAGE */
+
+.index-top-image{
+    background-image: url(https://www.safaritravelplus.com/wp-content/uploads/2018/06/african-safari-tswalu-kalahari-tarkuni-firepit.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landing-countries{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+}
+
+.index-top-title{
+   text-align: center;
+   /* line-height: 11.2; */
+   letter-spacing: 8px;
+   padding-bottom: 0px;
+   padding-top: 180px;
+}
+
+.hr{
+    size: 100px;
+    width: 200px;
+    height: 10px;
+}
+.featured-hr{
+    size: 100px;
+    width: 80%;
+    height: 10px;
+    position:left;
+}
+
+.featured{
+    text-align: center;
+    /* background: blanchedalmond; */
+    /* width: 80%; */
+    justify-content: center;
+    color: rgb(162, 127, 81);
+}
+
+.index-top-para{
+    text-align: center;
+    margin-top: -14px;
+    color: rgb(80, 73, 64);
+ }
+
+.morocco-img{
+    width: 576px;
+    position: relative; 
+}
+
+.sa-title{
+    width: 480px;
+    text-align: right;  
+}
+.sa-img{
+    width: 480px;
+    position: relative;   
+}
+.zan-img{
+    width: 500px;
+    position: relative; 
+}
+
+.sey-img{
+    width: 500px;
+    position: relative; 
+}
+
+.sey-title{
+    width: 500px;
+    text-align: right; 
+}
+
+.egy-img{
+    width: 500px;
+    position: relative; 
+}
+.mau-img{
+    width: 619px;
+    position: relative; 
+}
+
+.mau-title{
+    width: 619px;
+    text-align: right;
+}
+
+.item{
+    padding: 5px;
+}
+
+/* SIGN-UP */
+.signup-box{
+    background: rgb(182, 159, 160);
+    height: 250px;
+    width: 330px;
+    align-items: center;
+    opacity: 75%; 
+    margin-top: 200px; 
+    margin-bottom: 100px;  
+}
+
+.signup-info{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    width: 250px; 
+    height: 30px;
+    margin-left: 40px;  
+}
+
+.signup-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 150px; 
+    height: 30px;
+    margin-left: 40px;    
+}
+
+.signup-login{
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.signup-btn:hover{
+    background-color: burlywood;
+    border: none;
+}
+
+.signup-span{
+    text-decoration: underline;
+}
+
+.parag-text-signup{
+    font-size: 29px;
+    margin-left: 15px;
+    padding: 5px;
+    color: black;
+    text-align: center;
+
+}
+
+/* LOGIN */
+.login-box{
+    background: rgb(182, 159, 160);
+    height: 250px;
+    width: 330px;
+    align-items: center;
+    opacity: 75%; 
+    margin-top: 200px; 
+    margin-bottom: 100px; 
+}
+
+.login-info{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    width: 250px; 
+    height: 30px;
+    margin-left: 15px;  
+}
+
+.login-signup{
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.login-btn{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    width: 250px; 
+    height: 30px;
+    margin-left: 15px;
+}
+
+.login-btn:hover{
+    background-color: burlywood;
+    border: none;
+}
+.parag-text-login{
+    font-size: 29px;
+    margin-left: 15px;
+    padding: 5px;
+    color: rgb(41, 85, 197)
+
+}
+
+
+/* FAIL TO LOGIN */
+.fail-to-login {
+    background-color: burlywood;
+    width: 540px;
+
+}
+
+@media only screen and (min-width: 768px){
+    body{
+        background-image: 50%;
+    }
+}
+
+
+
+
+h6{
+    color: burlywood;
+    text-align: center;
+}
+
+
+/* MEMBER'S PAGE */
+
+.card{
+    width: 18rem;
+    margin: 10px;
+    
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    /* margin: 10px; */
+    /* padding: 19px; */
+}
+
+.card-top img{
+    width: 400px;
+    height: 100%;
+}
+.location-index{
+    margin-top: 20px;
+    margin-bottom:30px ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-image: url(https://d3500i1ecak5li.cloudfront.net/s3fs-public/styles/banner/public/images/chapters/travel%20massive%20africa.jpg);
+    background-size: cover;
+    padding: 200px;
+    margin-top: 5px;
+   
+    
+}
+
+.location-index-h1{
+    margin-bottom:30px ;  
+}
+
+.location-index-h1-2{
+    margin: 30px ; 
+    margin-bottom: 10px; 
+}
+
+.location-index-form{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+.location-index-location{
+    padding: 20px;
+    margin: 10px;
+    /* text-align: left; */
+}
+
+.location-index-image{
+    /* padding: 20px; */
+    margin: 10px;
+}
+
+.location-index-content{
+    /* padding: 20px; */
+    margin: 10px;
+    background-color: rgb(212, 148, 124);
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.location-index-submit{
+    padding: 10px;
+    margin: 5px;
+}
+
+.location-index-delbtn{
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+}
+
+.location-index-edbtn{
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+}
+
+
+
+.location-edit{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.new-form-form{
+    display: flex;
+    flex-wrap: wrap;  
+    margin-top: 30px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.new-form-header{
+    display: flex;
+    flex-wrap: wrap;    
+    margin-top: 100px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    color: burlywood;
+   
+}
+
+.flex-container-form{
+    background-image: url(https://iconiclife.com/wp-content/uploads/2020/01/Kwandwe-Melton-luxury-african-safari-lodge.jpg);
+    height: 100%;  
+    margin: 5px;
+    padding: 50px;
+    background-size: cover;
+}
+
+.new-form-submit{
+    width: 150px;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+} 
+
+.new-form-submit:hover{
+    background-color: burlywood;
+}
+.new-form-input{
+    width: 350px;
+    margin: 5px;
+    padding: 4px;
+    opacity: 85%;
+} 
