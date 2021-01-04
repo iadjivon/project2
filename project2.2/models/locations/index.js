@@ -9,7 +9,9 @@ const { Schema, model } = require("mongoose");
 
 const locationSchema = new Schema({
   username: { type: String, required: true },
-  location: String
+  location: String,
+  image: {type: String, required:true},
+  content: String
 },
 {timestamps:true}
 );

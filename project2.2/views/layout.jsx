@@ -32,8 +32,13 @@ class Layout extends React.Component {
         <a class="nav-link" href="/auth/login">Log In</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/auth/logout">Log Out</a>
+        <a class="nav-link" href="/locations">My Vacation Spots</a>
       </li>
+      
+      <li class="nav-item">
+        <a class="nav-link-logout" href="/auth/logout">Log Out</a>
+      </li>
+
       {/* <li class="nav-item">
         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
       </li> */}
@@ -50,7 +55,7 @@ class Layout extends React.Component {
               <a class="navbar-brand" href="https://www.linkedin.com/in/ida-adjivon/">
                 <img src="https://www.iconfinder.com/data/icons/popular-social-media-flat/48/Popular_Social_Media-22-512.png" width="100%" height="100%" alt=""></img>
               </a>
-              <h6> Ida Adjivon. All Rights reserved.</h6>
+              <p> Copyright©. All Rights reserved.</p>
               <a class="navbar-brand" href="https://github.com/iadjivon">
                 <img src="https://www.kindpng.com/picc/m/128-1280187_github-logo-png-github-transparent-png.png" width="100%" height="100%" alt="Github"></img>
               </a>
