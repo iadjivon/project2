@@ -1,3 +1,17 @@
+
+# L'Afrique en Luxe
+
+#### This application allows all users to read blogs location ideas for their next trip into the African continent. Site members can submit images and reviews of their favorite vacation spots on the African continent 
+
+<br/>
+
+#### This project is a practice on building a full-stack application 
+<br/>
+
+
+<hr>
+
+
 # Mongo - Express - Express React Views Template
 
 ## USING THIS TEMPLATE:
